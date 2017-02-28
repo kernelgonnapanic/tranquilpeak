@@ -5,6 +5,13 @@
     width:       calc(100% - #{map-get($sidebar, xlg-screen-width)});
 }
 
+@mixin customized-main-xs {
+    padding-top: map-get($main, padding-top);
+    position: absolute;
+    width: 1000px;
+    left: 500px;
+}
+
 /// Mixin helper to stylized `main` div in small size
 @mixin main-sm {
     padding-top: map-get($main, padding-top);

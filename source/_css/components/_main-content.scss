@@ -5,3 +5,9 @@
     padding-right: map-get($main-content, padding-right-left);
     padding-left:  map-get($main-content, padding-right-left);
 }
+
+@media #{$xlarge-and-up} {
+  margin: 0;
+  padding-right: 50px;
+  padding-left: 50px;
+}

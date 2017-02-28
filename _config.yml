@@ -35,6 +35,20 @@ sidebar:
             title: global.home
             url: /
             icon: home
+        about:
+            title: global.about
+            url: /#about
+            icon: question
+        # search:
+        #     title: global.search
+        #     url: /#search
+        #     icon: search
+        #     # `open-algolia-search` classes are used to open algolia search modal
+        #     class: open-algolia-search
+        rss:
+            title: global.rss
+            url: /atom.xml
+            icon: rss
         categories:
             title: global.categories
             url: /all-categories
@@ -43,54 +57,41 @@ sidebar:
             title: global.tags
             url: /all-tags
             icon: tags
-        archives:
-            title: global.archives
-            url: /all-archives
-            icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
-            # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
-        about:
-            title: global.about
-            url: /#about
-            icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        github:
+            title: global.github
+            url: https://github.com/kernelgonnapanic
+            icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
         #     icon: stack-overflow
-        # twitter:
-        #     title: global.twitter
-        #     url: https://twitter.com/
-        #     icon: twitter
-        # facebook:
-        #     title: global.facebook
-        #     url: https://facebook.com/
-        #     icon: facebook
+        twitter:
+            title: global.twitter
+            url: https://twitter.com/konopka_ania
+            icon: twitter
+        facebook:
+            title: global.facebook
+            url: https://www.facebook.com/kernelgonnapanic/
+            icon: facebook
+        instagram:
+            title: global.instagram
+            url: https://www.instagram.com/kernelgonnapanic/
+            icon: instagram
         # google_plus:
         #     title: global.google_plus
         #     url: https://plus.google.com/
         #     icon: google-plus
-        # linked_in:
-        #     title: global.linkedin
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
+        linked_in:
+            title: global.linkedin
+            url: https://pl.linkedin.com/in/anna-konopka-3b0043115
+            icon: linkedin
         # mail:
         #     title: global.mail
         #     url: mailto:
         #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+    # rss:
+
 
 
 # Header configuration
@@ -112,18 +113,18 @@ header:
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: annna.maria.konopka93@gmail.com
+    location: Wrocław, Polska
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: zdjecie.jpg
     # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter:
+    twitter: konopka_ania
     # Your personal google plus profile id, not your blog or business page id.
     # E.g : `+JohnDoe` or `123812884128439`
-    google_plus:
+    google_plus: 116973627351289730465
     # Your businnes google plus profile id. If not provided, personal will be used instead.
     # E.g : `+Tranquilpeak` or `123812884128439`
     google_plus_business:
@@ -164,9 +165,9 @@ auto_thumbnail_image: true
 # Otherwise put your image in folder `source/_images/` (development)
 # or in `source/assets/images/` if you can't or don't want to build the theme,
 # and use relative url : `your-image.png`
-cover_image: cover.jpg
+cover_image: sky.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
-favicon:
+favicon: favicon.ico
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
 image_gallery: true
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
@@ -179,11 +180,11 @@ tag_pagination: true
 # You can't use Disqus and Duoshuo together
 # then fill the right shortname
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: bookieandcookie
 # Your Duoshuo shortname
 duoshuo_shortname:
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-91276922-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog

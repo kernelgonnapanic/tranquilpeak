@@ -1,0 +1,66 @@
+# date format displayed everywhere in the blog
+date_format: "DD.MM.YYYY"
+
+global:
+    home: "Home"
+    categories: "Kategorie"
+    category: "Kategoria"
+    tags: "Tagi"
+    tag: "Tag"
+    archives: "Starocie"
+    search: "Szukaj"
+    about: "O mnie"
+    author_picture: ""
+    github: "GitHub"
+    stack_overflow: "Stack Overflow"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    instagram: 'Instagram'
+    google_plus: "Google Plus"
+    linkedin: "LinkedIn"
+    mail: "Mail"
+    rss: "RSS"
+    share_on_google_plus: "Udostępnij na Google Plus"
+    share_on_facebook: "Udostępnij na Facebook"
+    share_on_twitter: "Udostępnij na Twitter"
+    search_category: "Wyszukaj kategorię"
+    search_tag: "Wyszukaj tag"
+    search_date: "Wyszukaj datę (YYYY/MM/DD)"
+    posts_found:
+        zero: "Jeszcze nie napisałam posta, którego szukasz."
+        one: "Jesteś szczęściarzem! Znaleziono jednego posta."
+        few: "Znaleziono {n} posty :)"
+        other: "Znaleziono {n} postów :)"
+    categories_found:
+        zero: "Nie znaleziono kategorii."
+        one: "Jesteś szczęściarzem! Znaleziono jedną kategorię."
+        few: "Znaleziono {n} kategorie :)"
+        other: "Znaleziono {n} kategorii :)"
+    tags_found:
+        zero: "Nie znaleziono taga."
+        one: "Znaleziono jednego taga."
+        few: "Znaleziono {n} tagi :)"
+        other: "Znaleziono {n} tagów :)"
+
+pagination:
+    page: "strona %d"
+    of: "z %d"
+    newer_posts: "NOWSZE"
+    older_posts: "STARSZE"
+    previous: "POPRZEDNI"
+    next: "NASTĘPNY"
+
+post:
+    no_title : "brak tytułu"
+    categorized_in: "w"
+    tagged_in: "TAGI"
+    toc: "Spis treści"
+    read_more: "Czytaj dalej..."
+    go_to_website: "Go to website"
+    comment_and_share: "Zostaw komentarz"
+
+author:
+    # Your biography (Markdown and HTML supported)
+    bio: "Geek girl. Enthusiastic coder. Frontend developer. Blog author. Speaker."
+    # Your job
+    job: "Frontend developer at PGS Software"

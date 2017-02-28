@@ -98,7 +98,7 @@
     #main {
         // Display `main` div in extra small size
         &[data-behavior="1"] {
-            @include main-xs;
+            @include customized-main-xs;
         }
         // Display `main` div in small size
         &[data-behavior="2"] {

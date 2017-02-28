@@ -1,3 +1,8 @@
+//Make first thumbnail image 100% wide
+article:first-child img {
+  width: 100%;
+}
+
 // Group of `.postShorten`
 // Add margin and border bottom when `.postShorten` are in `.postShorten-group`
 .postShorten-group {
