@@ -1,0 +1,37 @@
+.fb-modal {
+  padding: 15px;
+  margin: 0 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 550px;
+  border-radius: 1%;
+  background-color: #fff;
+  z-index: 200;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  .fb-modal__text {
+    text-align: center;
+    padding-bottom: 15px;
+
+    .fb-modal__intro {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .fb-modal__widget {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__close {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

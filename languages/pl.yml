@@ -20,6 +20,7 @@ global:
     linkedin: "LinkedIn"
     mail: "Mail"
     rss: "RSS"
+    goals: "Moje cele"
     share_on_google_plus: "Udostępnij na Google Plus"
     share_on_facebook: "Udostępnij na Facebook"
     share_on_twitter: "Udostępnij na Twitter"
@@ -63,4 +64,4 @@ author:
     # Your biography (Markdown and HTML supported)
     bio: "Geek girl. Enthusiastic coder. Frontend developer. Blog author. Speaker."
     # Your job
-    job: "Frontend developer at PGS Software"
+    job: "Senior Frontend Developer"

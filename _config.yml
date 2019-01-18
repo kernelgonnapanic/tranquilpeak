@@ -38,21 +38,21 @@ sidebar:
         about:
             title: global.about
             url: /#about
-            icon: question
+            icon: user
         # search:
         #     title: global.search
         #     url: /#search
         #     icon: search
         #     # `open-algolia-search` classes are used to open algolia search modal
         #     class: open-algolia-search
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
-        categories:
-            title: global.categories
-            url: /all-categories
-            icon: bookmark
+        goals:
+            title: global.goals
+            url: /cele.html
+            icon: bolt
+        # categories:
+        #     title: global.categories
+        #     url: /all-categories
+        #     icon: bookmark
         tags:
             title: global.tags
             url: /all-tags
