@@ -4,9 +4,11 @@
     height:             100%;
     position:           fixed;
     top:                0;
-    background:         map-get($sidebar, background);
+    left:               50px;
+    background:         white;
     overflow:           auto;
     z-index:            map-get($z-indexes, l-sidebar);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     // Sidebar animation
     // Transition style (push)
     transition:         transform .25s ease-in-out;
@@ -19,7 +21,7 @@
     }
     // Author information
     .sidebar-profile {
-        color:         map-get($sidebar, color);
+        color: map-get($colors, 'brand-navy');
         text-align:    center;
         padding-top:   18px;
         margin-bottom: 15px;
@@ -30,7 +32,7 @@
         }
         .sidebar-profile-name {
             font-size: 1.1em;
-            color:     map-get($sidebar, color);
+            color: map-get($colors, 'brand-navy');
         }
     }
     // Sidebar's buttons
@@ -46,14 +48,14 @@
             line-height: 45px;
 
             .sidebar-button-link {
-                color:   map-get($sidebar, color);
+                color:   map-get($colors, 'brand-navy');
                 display: block;
                 height:  100%;
 
                 &:hover,
                 &:active {
                     text-decoration: none;
-                    color:           lighten(map-get($sidebar, color), 35);
+                    color: map-get($colors, 'brand-pink');
                 }
             }
         }
@@ -128,6 +130,7 @@
 @media #{$xlarge-and-up} {
     #sidebar {
         &[data-behavior="1"] {
+            left: calc(50% - 175px - 450px);
             @include sidebar-xlg;
         }
         &[data-behavior="2"] {
@@ -137,8 +140,8 @@
             @include sidebar-md;
         }
         &[data-behavior="4"] {
-            left: -#{map-get($sidebar, xlg-screen-width)};
-            @include sidebar-xlg;
+            left: -#{map-get($sidebar, lg-screen-width)};
+            @include sidebar-lg;
         }
         &[data-behavior="5"] {
             left: -#{map-get($sidebar, lg-screen-width)};

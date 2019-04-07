@@ -37,7 +37,7 @@ sidebar:
             icon: home
         about:
             title: global.about
-            url: /#about
+            url: /omnie.html
             icon: user
         # search:
         #     title: global.search
@@ -129,6 +129,9 @@ author:
     # E.g : `+Tranquilpeak` or `123812884128439`
     google_plus_business:
 
+logo:
+    main: logo_main.png
+    round: submark.png
 
 # Customization
 # Define the behavior of the sidebar
