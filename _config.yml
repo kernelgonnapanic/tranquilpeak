@@ -49,6 +49,10 @@ sidebar:
             title: global.goals
             url: /cele.html
             icon: bolt
+        # consulting:
+        #     title: global.consulting
+        #     url: /konsultacje.html
+        #     icon: thumbs-up
         # categories:
         #     title: global.categories
         #     url: /all-categories
