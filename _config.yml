@@ -39,16 +39,16 @@ sidebar:
             title: global.about
             url: /#about
             icon: user
+        bucketlist:
+            title: global.bucketlist
+            url: /bucketlist.html
+            icon: list
         # search:
         #     title: global.search
         #     url: /#search
         #     icon: search
         #     # `open-algolia-search` classes are used to open algolia search modal
         #     class: open-algolia-search
-        goals:
-            title: global.goals
-            url: /cele.html
-            icon: bolt
         # consulting:
         #     title: global.consulting
         #     url: /konsultacje.html
